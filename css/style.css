@@ -1,0 +1,36 @@
+/* reset */
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* common */
+.container
+{
+    width: 800;
+    margin: auto;
+}
+
+/* header */
+header
+{
+    margin-left: 20px;
+}
+
+.logo
+{
+    height: 50px;
+    vertical-align: middle;
+}
+
+.brand
+{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    vertical-align: middle;
+}
+
+/* main */
