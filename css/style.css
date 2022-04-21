@@ -11,9 +11,7 @@
 {
     width: 80%;
     margin: auto;
-    padding: 15px;
     background-color: white;
-    text-align: left;
 }
 
 hr
@@ -52,6 +50,11 @@ main
     padding-bottom: 100%;
 }
 
+.button-box
+{ 
+    padding: 15px 30px;
+}
+
 .btn
 {
     display: inline-block;
@@ -59,12 +62,6 @@ main
     border-radius: 5px;
     border-width: 1px;
     padding: 5px;
-}
-
-.button-box
-{
-    text-align: left;
-    padding-bottom: 15px;
 }
 
 .btn-blue
@@ -83,6 +80,11 @@ main
     margin-left: 3px;
 }
 
+.to-do-list
+{
+    padding: 15px 20px;
+}
+
 ul
 {
     list-style-type: none;
@@ -90,7 +92,12 @@ ul
 
 li
 {
-    margin: 10px;
+    margin: 10px 5px;
+}
+
+.categories
+{
+    margin-bottom: 25px;
 }
 
 .triangle
