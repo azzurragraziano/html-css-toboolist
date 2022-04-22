@@ -7,6 +7,10 @@
 }
 
 /* common */
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
 .container
 {
     width: 80%;
@@ -36,7 +40,6 @@ header
 .brand
 {
     font-size: 40px;
-    font-family: Arial, Helvetica, sans-serif;
     font-weight: 700;
     vertical-align: middle;
 }
@@ -45,7 +48,6 @@ header
 main
 {
     background-color: #f6f8f9;
-    font-family: Arial, Helvetica, sans-serif;
     padding-top: 40px;
     padding-bottom: 100%;
 }
@@ -62,6 +64,7 @@ main
     border-radius: 5px;
     border-width: 1px;
     padding: 5px;
+    cursor: pointer;
 }
 
 .btn-blue
@@ -106,8 +109,9 @@ li
     vertical-align: middle;
 }
 
-.check
+.check::before
 {
+    content: '\2713';
     font-size: 15px;
     background-color: white;
     border: 1px solid green;
@@ -120,8 +124,9 @@ li
     color: green;
 }
 
-.cross
+.cross::before
 {
+    content: '\2573';
     font-size: 10px;
     background-color: white;
     border: 1px solid red;
@@ -132,7 +137,8 @@ li
     text-align: center;
     vertical-align: middle;
     color: red;
-}
+} 
+
 
 .tag
 {
